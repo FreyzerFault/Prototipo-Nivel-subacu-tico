@@ -164,7 +164,7 @@ Material:
     - _Anisotropy: 0
     - _BREATHANIMATION: 1
     - _BlendMode: 0
-    - _BreathSpeed: 0.68
+    - _BreathSpeed: 0.88
     - _CoatMask: 0
     - _ConservativeDepthOffsetEnable: 0
     - _CullMode: 2
@@ -275,6 +275,7 @@ Material:
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
     - _ZWrite: 1
+    - _breathStart: -1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BreathMinMaxRange: {r: 0.01, g: 0.3, b: 0, a: 0}
