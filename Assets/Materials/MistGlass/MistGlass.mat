@@ -31,6 +31,7 @@ Material:
   - _DISABLE_SSR_TRANSPARENT
   - _DOUBLESIDED_ON
   - _ENABLE_FOG_ON_TRANSPARENT
+  - _SPHERIZE
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
   m_LightmapFlags: 1
@@ -148,7 +149,7 @@ Material:
     - _MaterialID: 1
     - _MaterialTypeMask: 2
     - _Metallic: 0
-    - _Noise_Scale: 50.1
+    - _Noise_Scale: 42.6
     - _OcclusionStrength: 1
     - _OpaqueCullMode: 2
     - _Parallax: 0.005
@@ -162,8 +163,8 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 3
     - _RequireSplitLighting: 0
-    - _SPHERIZE: 0
-    - _Smoothness: 0.781
+    - _SPHERIZE: 1
+    - _Smoothness: 0.822
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -190,15 +191,15 @@ Material:
     - _TransparentWritingMotionVec: 0
     - _TransparentZWrite: 0
     - _UseShadowThreshold: 0
-    - _Visibility: 0.391
+    - _Visibility: 0.581
     - _WorkflowMode: 1
     - _XRMotionVectorsPass: 1
     - _ZTestDepthEqualForOpaque: 4
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
     - _ZWrite: 0
-    - _fillBorders: 1
-    - _fillBreath: 0.576
+    - _fillBorders: 0.123
+    - _fillBreath: 0.601
     - _fillPercent: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}

@@ -71,7 +71,5 @@ public class PlayerController : MonoBehaviour
             Vector3 camRot = cam.transform.rotation.eulerAngles;
             cam.transform.rotation = Quaternion.Euler(85, camRot.y, camRot.z);
         }
-
-        Debug.Log($"Euler Angles: {cam.transform.rotation.eulerAngles}");
     }
 }
