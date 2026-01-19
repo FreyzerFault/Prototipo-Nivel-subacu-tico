@@ -9,7 +9,7 @@ Hecho por:
 
 ## Mapa del Nivel
 
-![Level Design](Docs/LEVEL DESIGN.png)
+![Level Design]("/Docs/LEVEL DESIGN.png")
 
 ## Introducción
 
