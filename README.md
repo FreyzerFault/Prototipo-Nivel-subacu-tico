@@ -4,8 +4,8 @@ Tarea de Diseño de Nivel del Máster en Creación de Videojuegos de la UMA.
 
 Hecho por:
 
-- David Martínez Alcántara
-- Norangi
+- David Martínez
+- Norangi Alvarado
 
 ## Mapa del Nivel
 
