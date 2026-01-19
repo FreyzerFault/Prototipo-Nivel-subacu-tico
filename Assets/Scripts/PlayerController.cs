@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
         rb.maxAngularVelocity = maxFallSpeed;
     }
     
-    private void Update()
+    private void FixedUpdate()
     {
         moveInput = moveAction.ReadValue<Vector2>();
         lookInput = lookAction.ReadValue<Vector2>();

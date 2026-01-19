@@ -542,8 +542,8 @@ MonoBehaviour:
       m_Action: Look
       m_Flags: 0
     m_Flags: 0
-  speed: 5
-  sensitivity: 10
+  speed: 3
+  sensitivity: 6
   maxFallSpeed: 2
 --- !u!54 &3977190768544437310
 Rigidbody:
@@ -553,7 +553,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9007554719504188189}
   serializedVersion: 5
-  m_Mass: 1
+  m_Mass: 2
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -571,4 +571,4 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
