@@ -18,6 +18,8 @@ public class PlayerController : MonoBehaviour
 
     private void Awake()
     {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         cam = GetComponentInChildren<Camera>();
         rb  = GetComponent<Rigidbody>();
         rb.maxAngularVelocity = maxFallSpeed;
