@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="145ba042-6675-484f-9d5f-67c87f449237" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototipo Nivel subacuático/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prototipo Nivel subacuático/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Transition Trigger.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Transition Trigger.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/VFX/Fade Fullscreen Image.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/VFX/Fade Fullscreen Image.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Interior [Nora].unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Interior [Nora].unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TransitionTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TransitionTrigger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-    </list>
+    <list default="true" id="145ba042-6675-484f-9d5f-67c87f449237" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,7 +125,7 @@
       <workItem from="1768152869458" duration="6047000" />
       <workItem from="1768227826937" duration="102000" />
       <workItem from="1768756895557" duration="15270000" />
-      <workItem from="1768867262762" duration="1507000" />
+      <workItem from="1768867262762" duration="1840000" />
     </task>
     <servers />
   </component>
