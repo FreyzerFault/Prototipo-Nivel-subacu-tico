@@ -197,7 +197,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -226,6 +226,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 477dda1f283982b43ba5593ab7f35bb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FadeIn
-  loadingTxt: {fileID: 0}
+  loadingTxt: {fileID: 9029368993246925703}
   duration: 0.5
   fadeType: 1

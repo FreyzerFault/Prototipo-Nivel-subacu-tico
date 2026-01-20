@@ -127,8 +127,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TransitionTrigger
   spawnPointT: {fileID: 6163505610882167069}
-  transitionLocation: 0
-  color: {r: 0, g: 0, b: 0, a: 0}
+  transitionLocation: -1
+  sceneBuildIndex: -1
+  color: {r: 0, g: 0, b: 0, a: 1}
   isInOut: 0
 --- !u!1 &6765839327947489432
 GameObject:

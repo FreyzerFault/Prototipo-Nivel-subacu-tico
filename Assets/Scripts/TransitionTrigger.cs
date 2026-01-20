@@ -9,8 +9,11 @@ public class TransitionTrigger : MonoBehaviour
 
     public Transform spawnPointT;
     public TransitionPlace transitionLocation;
-    public Color color;
+    public int sceneBuildIndex = -1;
     public bool isInOut;
+
+    public bool doFadeOut = true;
+    public Color fadeColor;
     
     private GameObject player;
     
@@ -36,10 +39,14 @@ public class TransitionTrigger : MonoBehaviour
 
         Debug.Log($"Transition {transitionLocation.ToString()} triggered " +
                   $"from {(isInOut ? "inside" : "outside")} to {(isInOut ? "outside" : "inside")}" +
-                  $" with color {color.ToString()}");
+                  $" with color {fadeColor.ToString()}");
         
-        // Load the scene after a Fade Out with its color
-        GameManager.Instance.LoadSceneWithFadeOut(isInOut ? 0 : 1, color);
+        int buildIndex = sceneBuildIndex >= 0 ? sceneBuildIndex : isInOut ? 0 : 1;
+        if (doFadeOut)
+            // Load the scene after a Fade Out with its color
+            SceneLoader.Instance.LoadSceneWithFadeOut(buildIndex, fadeColor);
+        else
+            SceneLoader.Instance.LoadScene(buildIndex);
     }
     
     private void SpawnPlayer()
