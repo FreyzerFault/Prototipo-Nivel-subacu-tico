@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Interior [Nora].unity
     guid: 0bfe9883a60451f49b5edd2fa23c43c4
   - enabled: 1
-    path: Assets/Scenes/Transitions/Outside_TransitionScene 1.unity
+    path: Assets/Scenes/Transitions/Outside_TransitionScene.unity
     guid: 4eecec493e4fc2f4dbe0c2da76db0dee
   - enabled: 1
     path: Assets/Scenes/Transitions/Inside_TransitionScene.unity
